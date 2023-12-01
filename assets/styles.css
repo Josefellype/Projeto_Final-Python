@@ -1,0 +1,39 @@
+h1, h3 {
+    text-align: center;
+}
+
+
+
+#graph { 
+    display: inline-block;
+    width:50%;
+}
+
+#graph2 {
+    display: inline-block;
+    width:50%;
+}
+
+#teste, #heatMap {
+    height: 600px;
+    display: inline-block;
+    width: 50%;   
+}
+
+
+@media only screen and (max-width: 800px) {
+    #graph, #graph2, #teste, #heatMap {
+        /* Your styles for the bottom graph when window size is less than 600 pixels */
+        /* For example, you can set the height or move it to the bottom */
+        width: 100% !important;
+        display: inline;
+        position: relative;
+    }
+    
+}
+
+#years {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
